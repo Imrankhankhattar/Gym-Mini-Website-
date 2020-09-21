@@ -1,0 +1,207 @@
+
+/* class selecter */
+.internal {
+    border:2px solid red;
+    background-color:rgb(185, 223, 81);
+    color: black;
+} */
+/* group selecter */
+ header,footer {
+    background-color:rgb(185, 223, 81);
+    color: rgb(22, 20, 20);
+} 
+/* font family if 1 is not then another font will be followed */
+/* we can use rgb function , #fffffff hexadecimal also in colour and background */
+.internal{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* working with border */
+    /* 1:choosing border width,its colour ,style,and if you want curve border then border-radius: ; */
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 4px;
+    height: 160px;
+    width: 240px;
+    padding: 2px 4px 8px 3px;
+    margin: auto;
+    border-radius: 30px;
+    display: inline-table;
+
+}
+/* coloures In css */
+.external{
+    /* working with height width border top left right top */
+    border-top:4px solid chartreuse;
+    border-bottom:4px solid rgb(3, 5, 7) ;
+    border-left:4px solid rgb(3, 3, 24);
+    border-right: 4px solid rgb(77, 8, 23);
+    background:rebeccapurple;
+    padding: 2px 4px 8px 3px;
+    margin: auto;
+    border-radius: 30px;
+    display: inline-table;
+    height: 160px;
+    width: 240px;
+}
+/* coloures through rgb */
+.external{
+    color: rgb(142, 187, 20);
+}
+/* including pictures in paras */
+#Para5{
+    background-image:url(22.jpg) ;
+    resize: horizontal;
+    background-size: contain;
+    background-color: lawngreen;
+    width: 400px;
+    height: 500px;
+    border: rgb(139, 11, 39);
+    border-width: 4px;
+    border-style: solid;
+    /* repeat x or y or no */
+    background-repeat: no-repeat ;
+    background-position: center center;
+    /* to give same padding 2px,4px */
+    padding: 2px 4px 8px 3px;
+    margin: auto;
+    border-radius: 30px;
+
+    
+}
+.container{
+width:900px;
+/* height: 400px; */
+border:2px solid  black;
+background-color: rgb(139, 172, 48);
+margin: auto;
+float: left;
+}
+.cartoon{
+    background: rgb(179, 129, 38);
+    border: 2px solid rgb(20, 13, 14);
+    /* border-color:rgb(98, 197, 59); */
+    border-radius: 5px;
+    padding: 1000,1000;
+    margin :100 100;
+    text-align: center;
+    text-align: justify;
+
+}
+#tom{
+    float :left;
+    width: 49%;
+
+}
+
+#jerry{
+    float :right;
+    width: 50%;
+}
+
+
+#shaun{
+    /* float:right; */
+    clear: both;
+    width: 99.6%;
+}
+h2,h3{
+    text-shadow: rgb(204, 29, 38);
+    text-align:center;
+}
+.buton{
+    background-color: rosybrown;
+    border: 2px solid rgb(73, 15, 15);
+    padding: 30px;
+    margin :auto;
+    width:200px;
+    float: right;
+
+}
+
+.btn{
+    font-weight: normal;
+    border:0.4px solid rgb(22, 29, 27);
+    background-color: rgb(104, 136, 223);
+    background:rgb(113, 124, 119);
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    border: thin;
+    color: rgb(143, 146, 134);
+    background-color: rgb(145, 102, 102);
+}
+a:visited{
+color: yellow;
+}
+a:active{
+background-color: rgb(49, 42, 97);
+}
+.btn2{
+    cursor: pointer;
+}
+/* Nvigation bar */
+.navclass {
+    background-color:black;
+    width:1340px;
+    /* height: 45px; */
+    display:block;
+}
+.navclass ul{
+    
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+   
+}
+li{
+    border-right: 1px solid #bbb;
+    float:left;
+}
+li:last-child {
+    border-right: none;
+  }
+li a{
+    float:left;
+    /* overflow: auto; */
+    display:block;
+    text-decoration:none;
+    padding: 8px 16px;
+    text-align: center;
+
+}
+/* #but1{
+    display: inline; 
+    float: left;
+    width:50%;
+} */
+
+#but2{
+    /* display: inline; */
+    float: right;
+    width:27%;
+    height: 290px;
+    text-align: justify;
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  .form{
+      float: left;
+      overflow: none;
+      border: 4px solid rgb(187, 13, 13);
+      width: 25%;
+  }
+  .navclass input{
+      float: right;
+      border-radius: 20px solid white;
+      width: 134px;
+      padding: 1px;
+      margin: 6px 9px;
+      font-size: 17px;
+  }
+  .navclass input:hover{
+    background-color: #e1e5e9;
+    color: white;
+    border: 2px solid black;
+  }
